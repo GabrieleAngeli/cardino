@@ -1,0 +1,62 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Camera\"><param name=\"wp-package\" value=\"Camera\" /></feature>",
+                            "count": 2
+                        },
+                        {
+                            "xml": "<feature name=\"Globalization\"><param name=\"wp-package\" value=\"Globalization\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "Properties/WMAppManifest.xml": {
+                "parents": {
+                    "/Deployment/App/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"ID_CAP_ISV_CAMERA\" />",
+                            "count": 2
+                        },
+                        {
+                            "xml": "<Capability Name=\"ID_CAP_MEDIALIB_PHOTO\" />",
+                            "count": 2
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "{bf5e0380-83e0-11e4-af57-81e0c7ac1229}"
+        },
+        "org.apache.cordova.globalization": {
+            "PACKAGE_NAME": "{bf5e0380-83e0-11e4-af57-81e0c7ac1229}"
+        },
+        "com.keith.cordova.plugin.canvascamera": {
+            "PACKAGE_NAME": "{bf5e0380-83e0-11e4-af57-81e0c7ac1229}"
+        },
+        "org.wbt11a.nativecamera": {
+            "PACKAGE_NAME": "{bf5e0380-83e0-11e4-af57-81e0c7ac1229}"
+        },
+        "com.performanceactive.plugins.camera": {
+            "PACKAGE_NAME": "{bf5e0380-83e0-11e4-af57-81e0c7ac1229}"
+        },
+        "co.mwater.foregroundcameraplugin": {
+            "PACKAGE_NAME": "{bf5e0380-83e0-11e4-af57-81e0c7ac1229}"
+        },
+        "com.clarknikdelpowell.realtime_camera": {
+            "PACKAGE_NAME": "{bf5e0380-83e0-11e4-af57-81e0c7ac1229}"
+        }
+    },
+    "dependent_plugins": {}
+}
