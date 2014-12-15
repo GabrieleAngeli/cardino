@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "name": "com.clarknikdelpowell.realtime_camera",
+    "cordova_name": "Realtime Camera",
+    "description": "Loosely based on CanvasCamera by daraosn",
+    "license": "MIT",
+    "repo": "https://github.com/Clark-Nikdel-Powell/realtime_camera.git",
+    "keywords": [
+        "camera",
+        "canvas",
+	"realtime",
+	"webcam"
+    ],
+    "platforms": [
+        "ios",
+    ],
+    "engines": [],
+}
